@@ -1,0 +1,31 @@
+.timer {
+  display: flex;
+}
+.field {
+  float: left;
+  margin-right: 45px;
+  text-align: center;
+}
+.field:last-child {
+  margin-right: 0;
+}
+.label {
+  display: block;
+  font: normal 0.94em "Lato";
+  color: #1a1a1a;
+  text-transform: uppercase;
+}
+.value {
+  position: relative;
+  float: left;
+  height: 110px;
+  padding: 0 10px;
+  min-width: 100px;
+  background-color: rgb(76, 74, 74);
+  border-radius: 8px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2),
+    inset 2px 4px 0 0 rgba(255, 255, 255, 0.08);
+  font: normal 5.94em/107px "Lato";
+  font-weight: 700;
+  color: #fff;
+}
