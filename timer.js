@@ -1,6 +1,3 @@
-refs = {
-  timeComponents: document.querySelectorAll(".value"),
-};
 class CountdownTimer {
   constructor({ selector, targetDate }) {
     this.targetDate = targetDate;
